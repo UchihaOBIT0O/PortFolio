@@ -2,7 +2,7 @@ import SkillsItem from "../ui/SkillsItem";
 
 function Skills() {
   return (
-    <div className="bg-new-1 flex h-screen max-w-6xl flex-col text-gray-300 md:mx-auto">
+    <div className="bg-new-2 flex h-screen max-w-6xl flex-col text-gray-300 md:mx-auto">
       <div className="ml-3 pt-20 md:pb-10">
         {" "}
         <span className="text-3xl font-bolder tracking-tighter transition-all duration-700 ease-in-out hover:text-third-new md:text-5xl">
