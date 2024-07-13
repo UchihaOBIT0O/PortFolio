@@ -6,7 +6,7 @@ function HomePage() {
 
   return (
     <div className="flex h-screen w-full flex-col bg-new-1">
-      <div className="sticky h-[5rem] border-b border-gray-300">
+      <div className="sticky h-[5rem]">
         <div className="relative mx-auto flex max-w-6xl items-center justify-between text-white md:mt-1.5">
           <img
             src="https://aajwzuuqresmowecstsa.supabase.co/storage/v1/object/public/avatars/arunlogo.png"
@@ -40,7 +40,7 @@ function HomePage() {
             ></ion-icon>
           </div>
           <ul
-            className={`z-100 absolute w-full bg-primary-new bg-opacity-45 text-center md:hidden ${open ? "top-[5rem]" : "top-[-450px]"} flex flex-col gap-y-6 font-inter transition-all duration-700 ease-in-out`}
+            className={`z-100 bg-primary-new absolute w-full bg-opacity-45 text-center md:hidden ${open ? "top-[5rem]" : "top-[-450px]"} flex flex-col gap-y-6 font-inter transition-all duration-700 ease-in-out`}
           >
             <li className="border-b border-t border-gray-50 border-opacity-25 pb-5 pt-4">
               <Link to="/about">About</Link>
@@ -68,13 +68,13 @@ function HomePage() {
           <span className="animate-fadeInLeft font-semibold tracking-tight transition-all duration-700 ease-in-out md:text-xl md:font-semibold md:tracking-normal md:hover:ml-2 md:hover:scale-x-110">
             ARUN DONTHULA
           </span>
-          <h1 className="animate-fadeUpBottom font-inter text-3xl font-bolder text-fourth-color transition-all duration-700 ease-in-out hover:text-third-new md:text-7xl md:font-bold md:tracking-tighter md:hover:ml-8 md:hover:scale-x-110">
+          <h1 className="text-fourth-color animate-fadeUpBottom font-inter text-3xl font-bolder transition-all duration-700 ease-in-out hover:text-third-new md:text-7xl md:font-bold md:tracking-tighter md:hover:ml-8 md:hover:scale-x-110">
             Software Engineer and
           </h1>
-          <h1 className="animate-fadeInBottom font-inter text-3xl font-bolder tracking-tighter text-fourth-color transition-all duration-700 ease-in-out hover:text-third-new md:text-7xl md:font-bold md:tracking-tighter md:hover:ml-8 md:hover:scale-x-110">
+          <h1 className="text-fourth-color animate-fadeInBottom font-inter text-3xl font-bolder tracking-tighter transition-all duration-700 ease-in-out hover:text-third-new md:text-7xl md:font-bold md:tracking-tighter md:hover:ml-8 md:hover:scale-x-110">
             Self-Taught Front End Developer
           </h1>
-          <span className="text-l animate-fadeInBottom font-inter font-bold text-fourth-color transition-all duration-700 ease-in-out md:text-xl md:font-semibold md:tracking-normal md:hover:ml-2 md:hover:scale-x-110">
+          <span className="text-l text-fourth-color animate-fadeInBottom font-inter font-bold transition-all duration-700 ease-in-out md:text-xl md:font-semibold md:tracking-normal md:hover:ml-2 md:hover:scale-x-110">
             It&apos;s all about Software Development
           </span>
         </div>
