@@ -5,7 +5,7 @@ function HomePage() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg- bg-new-1 flex h-screen w-full flex-col">
+    <div className="bg-new-1 flex h-screen w-full flex-col">
       <div className="bg-new-2 sticky h-[5rem] border-b border-gray-300">
         <div className="relative mx-auto flex max-w-6xl items-center justify-between text-gray-300 md:mt-1.5">
           <img
