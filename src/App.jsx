@@ -16,7 +16,7 @@ function App() {
   ]);
 
   return (
-    <div className="h-screen scroll-smooth bg-opacity-90">
+    <div className="h-screen scroll-smooth">
       <RouterProvider router={router} />
     </div>
   );

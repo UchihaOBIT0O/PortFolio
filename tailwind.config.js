@@ -17,6 +17,8 @@ export default {
         "third-new": "#DA0037",
         "fourth-color": "#EDEDED",
         "test-color": "#18181B",
+        "new-1": "#070F2B",
+        "new-2": "#1B1A55",
       },
       fontWeight: {
         normal: 300,
