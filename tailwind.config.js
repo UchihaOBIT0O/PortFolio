@@ -12,13 +12,8 @@ export default {
         screen: "100vh",
       },
       colors: {
-        "primary-new": "#171717",
-        "secondary-new": "#444444",
         "third-new": "#DA0037",
-        "fourth-color": "#EDEDED",
-        "test-color": "#18181B",
-        "new-1": "#070F2B",
-        "new-2": "#1B1A55",
+        "new-1": "#000000",
       },
       fontWeight: {
         normal: 300,

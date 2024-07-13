@@ -5,9 +5,9 @@ function HomePage() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-new-1 flex h-screen w-full flex-col">
-      <div className="bg-new-2 sticky h-[5rem] border-b border-gray-300">
-        <div className="relative mx-auto flex max-w-6xl items-center justify-between text-gray-300 md:mt-1.5">
+    <div className="flex h-screen w-full flex-col bg-new-1">
+      <div className="sticky h-[5rem] border-b border-gray-300">
+        <div className="relative mx-auto flex max-w-6xl items-center justify-between text-white md:mt-1.5">
           <img
             src="https://aajwzuuqresmowecstsa.supabase.co/storage/v1/object/public/avatars/arunlogo.png"
             alt="logo"
@@ -63,7 +63,7 @@ function HomePage() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-grow flex-col items-center justify-center text-gray-300">
+      <div className="flex flex-grow flex-col items-center justify-center text-white">
         <div className="flex h-5/6 w-auto flex-col items-start justify-center font-inter md:w-7/12 md:gap-y-1">
           <span className="animate-fadeInLeft font-semibold tracking-tight transition-all duration-700 ease-in-out md:text-xl md:font-semibold md:tracking-normal md:hover:ml-2 md:hover:scale-x-110">
             ARUN DONTHULA
@@ -75,12 +75,11 @@ function HomePage() {
             Self-Taught Front End Developer
           </h1>
           <span className="text-l animate-fadeInBottom font-inter font-bold text-fourth-color transition-all duration-700 ease-in-out md:text-xl md:font-semibold md:tracking-normal md:hover:ml-2 md:hover:scale-x-110">
-            It's all about Software Development
+            It&apos;s all about Software Development
           </span>
         </div>
         <div className="flex h-1/6 w-full items-center justify-center">
-          <span className="flex animate-bounce items-center justify-center rounded-full bg-gray-300 p-1 text-2xl text-third-new hover:bg-third-new hover:text-gray-300 md:text-3xl">
-            {" "}
+          <span className="flex animate-bounce items-center justify-center rounded-full bg-gray-300 p-1 text-2xl text-third-new hover:bg-third-new hover:text-white md:text-3xl">
             <ion-icon name="arrow-down-outline"></ion-icon>
           </span>
         </div>

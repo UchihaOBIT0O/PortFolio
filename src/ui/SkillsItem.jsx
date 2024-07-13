@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 function SkillsItem({ text, children }) {
   return (
     <div className="mb-4 md:mb-7">

@@ -3,11 +3,11 @@ import SkillsItem from "../ui/SkillsItem";
 function Skills() {
   return (
     <div className="h-screen bg-new-1">
-      <div className="flex h-full max-w-6xl flex-col bg-new-1 text-gray-300 md:mx-auto">
+      <div className="flex h-full max-w-6xl flex-col bg-new-1 text-white md:mx-auto">
         <div className="ml-3 pt-20 md:pb-10">
           {" "}
           <span className="text-3xl font-bolder tracking-tighter transition-all duration-700 ease-in-out hover:text-third-new md:text-5xl">
-            Technologies I'm Working On &darr;
+            Technologies I&apos;m Working On &darr;
           </span>
         </div>
         <div className="md ml-6 mt-5 h-4/6 flex-wrap md:flex md:flex-col md:gap-x-10">
